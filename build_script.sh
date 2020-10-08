@@ -3,11 +3,9 @@
 pip3 install nuitka
 pip3 install hashlib
 clear
+echo "building into binary..."
 nuitka3 src/src.py
 rm -rf src.build
 mv src.bin pass_man
-rm -rf src/
-rm build_script.sh
-rm README.md
 clear
 echo "build completed"
