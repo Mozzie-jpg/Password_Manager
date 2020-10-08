@@ -9,6 +9,10 @@ source pass_venv/bin/activate
 bash build_script.sh
 ```
 
+You must also have a C compiler installed
+
+For example gcc
+
 # build_script_alternate.sh deletes everything except for the binary
 
 # build_script.sh simply deletes the stuff which isn't required after build
