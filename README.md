@@ -13,5 +13,3 @@ if the build scripts dont work, it might be because you might need to use it thr
 You must also have a C compiler installed
 
 For example gcc
-
-# build_script.sh simply deletes the stuff which isn't required after build
