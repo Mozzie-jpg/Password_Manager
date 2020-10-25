@@ -27,7 +27,7 @@ def menu():
         show_sets()
 
     if mode == '3':
-        quit()
+        Quit()
 
 def new_set():
 
@@ -53,5 +53,8 @@ def show_sets():
     pass_man_read = open(home_dir + '/.pass_man', 'r')
     print(pass_man_read.read())
 
-while True:
+def Quit():
+    return False
+
+while menu() == True:
     menu()
