@@ -13,3 +13,5 @@ if the build scripts dont work, it might be because you might need to use it thr
 You must also have a C compiler installed
 
 For example gcc
+
+For the first time creating a set, you need to manually delete the empty line in ~/.pass_man
