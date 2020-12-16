@@ -14,7 +14,7 @@ you will also need to generate a key, you can generate one like so:
 ```
 from cryptography.fernet import Fernet
 key = Fernet.generate_key()
-print (key)
+print (key.decode())
 ```
 
 then you will need to make a file at ~/.key
