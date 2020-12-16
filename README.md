@@ -18,4 +18,5 @@ print (key)
 ```
 
 then you will need to make a file at ~/.key
-! But remember you must remove the newline at the end of the file. !
+
+But remember you must remove the newline at the end of the file!
